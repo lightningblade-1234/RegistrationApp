@@ -29,10 +29,10 @@ async function testRegistration() {
         }
 
         await driver.findElement(By.id('name'))
-            .sendKeys('Rahul');
+            .sendKeys('meow');
 
         await driver.findElement(By.id('email'))
-            .sendKeys('rahul@gmail.com');
+            .sendKeys('meowy@gmail.com');
 
         await driver.findElement(By.id('password'))
             .sendKeys('123456');
